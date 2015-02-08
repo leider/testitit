@@ -6,4 +6,6 @@ var
   ezmlm = require('ezmlm-node')(homedir, domain, '.ezmlmrc'),
   group = process.argv[4];
 
-ezmlm.usersOfList(group, ezmlm.defaultOptions, null);
+ezmlm.usersOfList(group, ezmlm.defaultOptions, function (err, users) {
+  console.log(users.join());
+});
