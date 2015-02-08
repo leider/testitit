@@ -1,0 +1,9 @@
+{
+  "name": "testitit",
+  "version": "1.0.0",
+  "description": "testing ezmlm-node in a close to production setup",
+  "main": "index.js",
+  "dependencies": {
+    "ezmlm-node": "^0.0.3"
+  }
+}
