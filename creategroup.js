@@ -6,4 +6,6 @@ var
   ezmlm = require('ezmlm-node')(homedir, domain, '.ezmlmrc'),
   group = process.argv[4];
 
-ezmlm.createListNamed(group, ezmlm.defaultOptions, 'some prefix of ' + group);
+ezmlm.createListNamed(group, ezmlm.defaultOptions, 'some prefix of ' + group, function (err) {
+  console.log(err);
+});
