@@ -4,6 +4,6 @@
   "description": "testing ezmlm-node in a close to production setup",
   "main": "index.js",
   "dependencies": {
-    "ezmlm-node": "^0.0.6"
+    "ezmlm-node": "0.0.7"
   }
 }
